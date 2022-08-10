@@ -1,0 +1,664 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  width: 100%;
+  font-size: 25px;
+  background-size: cover;
+  height: 100vh;
+}
+html{
+  font-size: 62.5%;
+}
+/*----------------------------------------------------navbar--------------------------------------------*/
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: wheat;
+    padding:10px;
+}
+.navbar-main{
+    background: #ffffff;
+    box-shadow: 2px 3px 5px rgba(230, 230, 230, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+.logo-text{
+    font-size: 45px;
+    margin-left: 10px;
+    color: #FF7034;
+}
+.logo-text a{
+  color: #FF7034;
+  text-decoration: none;
+}
+.fa-yoast{
+  font-size: 45px;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding:5px 10px;
+  border:thin #fff;
+}
+
+li a {
+  display:list-item;
+  color: #FF7034;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:1px #F9F5BD transparent;
+  transition:0.8s ease;
+  font-size:large;
+}
+
+li a:hover {
+  background-color:white;
+  text-decoration:underline 3px solid #FF7034;
+  margin-top: 10px;
+}
+.main{
+  font-size: 35px;
+}
+.main li a:hover .sub-menu1{
+	display:block;
+	position:absolute;
+	background-color:white;
+	color:black;
+	margin-top:14px;
+	margin-left:15px;
+}
+/*----------------------------------------------------Sport club-----------------------------------------------*/
+.container-1{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/main.1.png);
+    background-repeat: no-repeat;
+    background-size: 1810px 749px;
+}
+.c-blog1{
+    width: 550px;
+    height: 38.9rem;
+    background-color:#FF7034;
+    margin-left: 730px;
+    position: relative;
+    top: 220px;
+    overflow: hidden;
+}
+@keyframes scale{
+  0%{
+      transform: scale(1.3);
+  }
+  100%{
+      transform: scale(1);
+  }
+}
+.blog1-head{
+  font-size: 75px;
+  background-color: #FF7034;
+  color: rgb(255, 255, 255);
+  font-family: 'candle' Impact, Times, serif;
+  padding: 20px 0px 0px 70px;
+  text-align: start;
+  animation: moveBanner 1s .4s forwards;
+  opacity: 0;
+}
+.blog1-para{
+  padding: 50px 60px 30px 60px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: moveBanner 1s .7s forwards;
+  opacity: 0;
+}
+.button{
+  border:1px white;
+  background-color: #FF7034;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  animation: moveBanner 1s .9s forwards;
+  opacity: 0;
+}
+.button1 {
+  background-color: #FF7034; 
+  color: rgb(255, 255, 255); 
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: #ffffff;
+  color:#FF7034;
+  border: 2px solid #FF7034;
+}
+@keyframes moveBanner{
+  0%{
+      transform: translateY(40rem)rotateY(-20deg);
+  }
+  100%{
+      transform: translateY(0)
+      rotateY(0);
+      opacity: 1;
+  }
+}
+/*----------------------------------------------------Weight loss and diet plan-----------------------------------------------*/
+.container-2{
+  height: 700px;
+  width: 100%;
+  margin-top: 60px;
+}
+.c-blog2{
+  height: 550px;
+  margin-left: 550px;
+}
+.blog2-head{
+  font-size: 65px;
+  text-align: center;
+  margin-top: -530px;
+  margin-left: 55rem;
+  color: #FF7034;
+}
+.blog2-para1{
+  font-size: 26px;
+  font-family: Bellota;
+  color: rgb(99, 99, 99);
+  padding-left: 250px;
+  padding-top: 30px;
+}
+.blog2-para2{
+  font-size: 28px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 35px 0 0 330px;
+  font-weight: bold;
+}
+.blog2-para3{
+  font-size: 26px;
+  font-family: Bellota;
+  color: rgb(99, 99, 99);
+  padding-left: 970px;
+  position: relative;
+  top:-190px;
+}
+.button2{
+  border-bottom: 4px solid #FF7034;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: #ffffff;
+  color: #FF7034;
+  text-align: center;
+  font-size: 28px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  bottom: 132px;
+  margin-left: 970px;
+}
+.blog2-img{
+  height: 320px;
+  width: 420px;
+  border: 12px solid #FF7034;
+  position: relative;
+  left: 750px;
+  bottom:100px;
+}
+/*----------------------------------------------------PILATES & YOGA CLASSES-----------------------------------------------*/
+.container-3{
+  width: 100%;
+  height: 970px;
+  margin-top: 150px;
+}
+.c-blog3-1{
+  width: 100%;
+  height: 320px;
+  background-color: rgb(224, 231, 231);
+}
+.blog3-head{
+  font-size: 65px;
+  color: #FF7034;
+  text-align: center;
+  padding-top: 50px;
+}
+.c-blog3-2{
+  width: 100%;
+  height: 250px;
+  background-color: #FF7034;
+}
+.c-blog3-3{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(224, 231, 231);
+}
+.blog-3-img1{
+  width: 550px;
+  height: 710px;
+  position: relative;
+  margin-left: 200px;
+  bottom: 107px;
+}
+.blog-3-img2{
+  width: 450px;
+  height: 400px;
+  image-rendering: initial;
+  position: relative;
+  margin-left: 800px;
+  bottom: 820px;
+}
+.blog-3-para{
+    font-size: 22.6px;
+    font-family: Bellota;
+    color: rgb(99, 99, 99);
+    padding-left: 800px;
+    padding-top: 110px;
+}
+.button3{
+  border-bottom: 4px solid #FF7034;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: rgb(224, 231, 231);
+  color: #FF7034;
+  text-align: center;
+  font-size: 28px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  bottom: -25px;
+  margin-left: 800px;
+}
+/*----------------------------------------------------How We Help-----------------------------------------------*/
+.container-4{
+  width: 100%;
+  height: 900px;
+}
+.c-blog4-head{
+  font-size: 65px;
+  text-align: center;
+  color: #FF7034;
+  padding-top: 70px;
+}
+.c-blog4-para{
+  font-size: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 25px;
+  color: rgb(99, 99, 99);
+  line-height: 30px;
+}
+.c-blog4-box{
+  width: 1299px;
+  height: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 80px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.box1{
+  flex:1 0 33%;
+  border:none;
+  min-height: 33.33vh;
+}
+.b-h1{
+  font-size: 35px;
+  color: #FF7034;
+  text-align: left;
+  margin-left: 25px;
+}
+.b-p1{
+  font-size: 20px;
+  color: rgb(99, 99, 99);
+  text-align: left;
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-right: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button4{
+    background-color: rgb(255, 255, 255);
+    color: #FF7034;
+    text-align: center;
+    font-size: 35px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.button4-1{
+  background-color: rgb(255, 255, 255);
+  color: #FF7034;
+  text-align: center;
+  font-size: 35px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  margin-top: 52px;
+  margin-left: 30px;
+}
+/*----------------------------------------------------Internation Yoga day------------------------------------------------*/
+.c-blog5-1{
+  width: 100%;
+  height: 410px;
+  background-color: rgb(224, 231, 231);
+  margin-top: 50px;
+}
+.blog5-img{
+  margin-left: 28.05rem;
+}
+.c-blog5-2{
+  width: 100%;
+  height: 380px;
+  background-color: #FF7034;
+}
+.slideshow-container{
+  height: 550px;
+  width: 520px;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: 190px;
+  top: 80px;
+  overflow: hidden;
+}
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  color: #717171;
+  padding-bottom: 300px;
+  position: absolute;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  position: relative;
+  left: -218px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+.blog5-h1{
+  font-size: 115px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FF7034;
+  text-align: start;
+  padding-left: 60px;
+  bottom: 300px;
+}
+.blog5-p{
+  color: rgb(99, 99, 99);
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left:60px ;
+  line-height: 39px;
+  padding-top: 20px;
+}
+.button5{
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: rgb(224, 231, 231);
+  color: rgb(99, 99, 99);
+  text-align: center;
+  font-size: 26px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px;
+}
+.button5:hover{
+  background-color: #FF7034;
+  color: rgb(255, 255, 255);
+}
+.c-blog5-3{
+  width: 100%;
+  height: 290px;
+  background-color: rgb(224, 231, 231);
+}
+/*----------------------------------------------------about club-----------------------------------------------*/
+.container-6{
+  width: 100%;
+  height: 1300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog6-1{
+  display: flex;
+}
+.c-blog61-1{
+  width: 500px;
+  height: 600px;
+}
+.blog6-img{
+  width: 350px;
+  height: 350px;
+  border-radius: 70%;
+  position: relative;
+  top: 180px;
+  left: 150px;
+}
+.c-blog61-2{
+  width: 60%;
+  height: 600px;
+}
+.blog61-head{
+  padding-top: 130px;
+  text-align: start;
+  margin-left: 110px;
+  font-size: 69px;
+  color: #FF7034;
+}
+.blog61-para{
+  margin-left: 110px;
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(99, 99, 99);
+}
+.button6{
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: rgb(224, 231, 231);
+  color: rgb(99, 99, 99);
+  text-align: center;
+  font-size: 26px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 110px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px;
+}
+.button6:hover{
+  background-color: #FF7034;
+  color: rgb(255, 255, 255);
+}
+.blog6-2{
+  display: inline-flex;
+}
+.c-blog62-1{
+  width: 30%;
+  height: 100%;
+  margin-top: 80px;
+}
+.blog62-head{
+  font-size: 43px;
+  padding-left: 90px;
+  color: #FF7034;
+}
+.c-blog62-2{
+  width: 70%;
+  height: 100%;
+  margin-top: 80px;
+}
+.c-blog62-2{
+  font-size: 21px;
+  padding-top: 10px;
+  color: rgb(99, 99, 99);
+  padding-left: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog62-para{
+  padding-top: 20px;
+}
+.blog6-3{
+  height: 100%;
+  display: flex;
+  margin: 40px 48px 30px 48px;
+}
+.blog63-img1{
+  width: 280px;
+  height: 330px;
+  margin: 15px;
+}
+.blog63-img1:hover{
+    box-shadow: 5px 9px 15px rgb(197, 195, 195);
+}
+/*----------------------------------------------------Learn more about our sport club-----------------------------------------------*/
+#container-7{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(224, 231, 231);
+  display: flex;
+}
+.blog7-1{
+  width: 50%;
+  height: 100%;
+}
+.blog71-head{
+  font-size: 55px;
+  color: #FF7034;
+  padding-top: 160px;
+  text-align: start;
+  padding-left: 205px;
+}
+
+.fab{
+  position: relative;
+  left: 180px;
+  margin: 70px 1px 0 30px;
+  color: #FF7034;
+}
+.blog7-2{
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  margin: 100px 100px 50px 100px;
+}
+.blog72-head{
+  font-size: 40px;
+  padding: 50px 50px;
+  color: #FF7034;
+  text-align: center;
+}
+#signup{
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  background: none;
+  border-bottom: 5px solid #FF7034;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 5px 0px 20px 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  outline: none;
+  color: rgb(99, 99, 99);
+  width: 350px;
+  height: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button7{
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: #FF7034;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 26px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 135px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+/*----------------------------------------------------footer-----------------------------------------------*/
+
+/*------------------------------footer----------------------------------*/
+.footer{
+  width: 100%;
+
+}
+p.footer-1{
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  height: 160px;
+  background-color: #FF7034;
+}

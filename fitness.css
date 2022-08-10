@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  width: 100%;
+  font-size: 25px;
+  background-size:cover;
+}
+html{
+  font-size: 62.5%;
+}
+.main{
+    
+}
+.image{
+   width: 100%;
+    height: 500px;
+    opacity: 3;
+}
+.blog1_img{
+    background-image: url(images/fitness.png);
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+    padding-bottom: 200px;
+    opacity: 3;
+    
+}
+.blog1_detail{
+    width: 1100px;
+    height: 200px;
+    background-color:#fff;
+    margin-left: 25px;
+    position: relative;
+    top: 308px;
+    overflow: hidden;
+    box-shadow: 2px 3px 3px 2px gray;
+
+}
+.h1{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.h2{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.h3{
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.blog2_container{
+    margin-top: 200px;
+    margin-left: 180px;
+}
+.blog2_1{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: gray;
+}
+.blog2_img{
+    border-radius: 2px white;
+    height: 180px;
+}
+.blog2_h1{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.blog2_p{
+    font-size: 17px;
+    padding-left:300px;
+    margin-top: -80px;
+    float: right;
+}
+.blog2_2{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: gray;
+}
+.blog2_img1{
+    border-radius: 2px white;
+    height: 180px;
+    margin-top: 30px;
+}
+.blog2_h2{
+    font-size: 20px;
+    padding-left: 38px;
+    padding-top: 50px;
+}
+.blog2_p1{
+    font-size: 17px;
+    padding-left:309px;
+    margin-top: -80px;
+    float: right;
+}
+.blog2_3{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: gray;
+}
+.blog2_img2{
+    border-radius: 2px white;
+    height: 180px;
+    margin-top: 30px;
+}
+.blog2_h3{
+    font-size: 20px;
+    padding-left: 38px;
+    padding-top: 50px;
+}
+.blog2_p2{
+    font-size: 17px;
+    padding-left:309px;
+    margin-top: -80px;
+    float: right;
+}
